@@ -1,0 +1,47 @@
+
+
+.movie {
+    margin: 1em;
+
+    .image {
+        width: 200px;
+    }
+
+    .year {
+        float: right;
+        border: 1px solid;
+        padding: 3px 5px;
+        border-radius: 5px;
+        font-size: 11px;
+        font-weight: 300;
+    }
+}
+
+.movie-section {
+    background: #232323;
+    color: #FFFFFF;
+    padding: 0 1em;
+    .menu-section {
+        background: #232323;
+    
+    }
+
+    .item-menu {
+        color: #FFFFFF;
+    }
+
+    .menu {
+        background: #232323;
+        color: #FFFFFF;
+    }
+
+    .list-movie {
+        background: #232323;
+       
+
+    }
+
+    .number-of {
+        margin-left: 0.7em;
+    }
+}
