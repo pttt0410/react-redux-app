@@ -1,9 +1,9 @@
 import ReactDom from 'react-dom';
-import Button from '@mui/material/Button'
-import '../../Styles/header.scss'
+import Button from '@mui/material/Button';
+import '../../styles/header.scss';
 import React, { useState } from 'react';
 import { TextField, Box } from '@mui/material';
-import { AddMovieComponent } from '../list-movie/add-movie';
+import { AddMovieComponent } from '../../pages/Homepage/components/AddMovieComponent';
 
 export const HeaderComponent = () => {
 

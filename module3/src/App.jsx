@@ -1,17 +1,17 @@
 import './App.css';
-import { HeaderPage } from './app/Containers/header/header';
+import { HeaderContainer } from './app/common/containers/HeaderContainer';
 import React from 'react';
-import { ListMoviePage } from './app/Containers/list-movie-page/list-movie-page';
+import { HomePageContainer } from './app/pages/Homepage/HomepageContainer';
 
 function App() {
   return (
     <>
       <div className="App">
         <div className="header">
-          <HeaderPage ></HeaderPage>
+          <HeaderContainer ></HeaderContainer>
 
         </div>
-        <ListMoviePage></ListMoviePage>
+        <HomePageContainer></HomePageContainer>
         <div className="footer">netflixroulete</div>
 
       </div>

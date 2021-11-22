@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { ListMoviesComponent } from "../../Components/list-movie/list-movie";
-import { ListMenuComponent } from "../../Components/list-movie/list-menu";
+import { ListMoviesComponent } from './components/ListMovieComponent';
+import { ListMenuComponent } from './components/ListMenuComponent';
 import { Box } from '@mui/material';
-import '../../Styles/movie.scss';
+import '../../styles/movie.scss';
 
-export const ListMoviePage = () => {
+export const HomePageContainer = () => {
     const listMenu = [
         { label: 'ALL', value: 1 },
         { label: 'DOCUMENTARY', value: 2 },
@@ -34,7 +34,7 @@ export const ListMoviePage = () => {
     return (
         <div className="movie-section">
             <Box
-                className='menu-section'
+                className="menu-section"
                 sx={{
                     display: 'flex',
                     justifyContent: 'space-between',

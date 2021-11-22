@@ -1,7 +1,6 @@
 import React from 'react';
-import { ListMenuComponent } from './list-menu';
 import { Box } from '@mui/material';
-import { ItemMovieComponent } from './item-movie';
+import { ItemMovieComponent } from './ItemMovieComponent';
 export const ListMoviesComponent = ({ listMovies }) => {
     const movie = listMovies.map((item, index) => <ItemMovieComponent movie={item} key={index} />)
     return (
